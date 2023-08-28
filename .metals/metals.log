@@ -1,0 +1,162 @@
+2023.08.28 13:27:31 INFO  Started: Metals version 1.0.0 in folders 'C:\Users\user\OneDrive\Desktop\UCSC 2nd Year\2204 Functional programming\2.Lab sheets\Labsheet 10' for client Visual Studio Code 1.81.1.
+Aug 28, 2023 1:27:32 PM org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+INFO: Flyway Community Edition 9.20.1 by Redgate
+Aug 28, 2023 1:27:32 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: See release notes here: https://rd.gt/416ObMi
+Aug 28, 2023 1:27:32 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: 
+Aug 28, 2023 1:27:32 PM org.flywaydb.core.internal.database.base.BaseDatabaseType createDatabase
+INFO: Database: jdbc:h2:file:C:\Users\user\OneDrive\Desktop\UCSC 2nd Year\2204 Functional programming\2.Lab sheets\Labsheet 10\.metals\metals (H2 2.1)
+Aug 28, 2023 1:27:32 PM org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory allAppliedMigrations
+INFO: Schema history table "PUBLIC"."flyway_schema_history" does not exist yet
+Aug 28, 2023 1:27:32 PM org.flywaydb.core.internal.command.DbValidate validate
+INFO: Successfully validated 4 migrations (execution time 00:00.042s)
+Aug 28, 2023 1:27:32 PM org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory create
+INFO: Creating Schema History table "PUBLIC"."flyway_schema_history" ...
+Aug 28, 2023 1:27:33 PM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFO: Current version of schema "PUBLIC": << Empty Schema >>
+Aug 28, 2023 1:27:33 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "1 - Create tables"
+Aug 28, 2023 1:27:33 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "2 - Server discovery"
+Aug 28, 2023 1:27:33 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "3 - Jar symbols"
+Aug 28, 2023 1:27:33 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "4 - Fingerprints"
+Aug 28, 2023 1:27:33 PM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFO: Successfully applied 4 migrations to schema "PUBLIC", now at version v4 (execution time 00:00.046s)
+2023.08.28 13:27:33 INFO  time: initialize in 1.43s
+2023.08.28 13:27:47 INFO  no build target found for C:\Users\user\OneDrive\Desktop\UCSC 2nd Year\2204 Functional programming\2.Lab sheets\Labsheet 10\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.0
+2023.08.28 13:27:51 INFO  time: code lens generation in 17s
+2023.08.28 13:28:14 INFO  Running List(C:\Users\user\AppData\Local\Coursier\data\bin\scala-cli.BAT, setup-ide, C:\Users\user\OneDrive\Desktop\UCSC 2nd Year\2204 Functional programming\2.Lab sheets\Labsheet 10)
+2023.08.28 13:28:16 INFO  Attempting to connect to the build server...
+2023.08.28 13:28:16 INFO  Running BSP server List(C:\Users\user\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe, bsp, --json-options, C:\Users\user\OneDrive\Desktop\UCSC 2nd Year\2204 Functional programming\2.Lab sheets\Labsheet 10\.scala-build\ide-options-v2.json, C:\Users\user\OneDrive\Desktop\UCSC 2nd Year\2204 Functional programming\2.Lab sheets\Labsheet 10)
+2023.08.28 13:28:16 WARN  No build session currently active to reload.
+2023.08.28 13:28:18 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\user\OneDrive\Desktop\UCSC 2nd Year\2204 Functional programming\2.Lab sheets\Labsheet 10\.metals\bsp.trace.json or C:\Users\user\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.08.28 13:28:23 INFO  BSP server: Checking https://github.com/coursier/jvm-index/raw/master/index.json
+2023.08.28 13:28:23 INFO  BSP server: Checked https://github.com/coursier/jvm-index/raw/master/index.json
+2023.08.28 13:28:23 INFO  BSP server: Downloading https://github.com/coursier/jvm-index/raw/master/index.json
+2023.08.28 13:28:28 INFO  BSP server: Still downloading:
+2023.08.28 13:28:28 INFO  BSP server: https://github.com/coursier/jvm-index/raw/master/index.json (41.15 %, 557056 / 1353802)
+2023.08.28 13:28:28 INFO  BSP server: 
+2023.08.28 13:28:33 INFO  BSP server: Still downloading:
+2023.08.28 13:28:33 INFO  BSP server: https://github.com/coursier/jvm-index/raw/master/index.json (68.60 %, 928768 / 1353802)
+2023.08.28 13:28:33 INFO  BSP server: 
+2023.08.28 13:28:38 ERROR Timeout waiting for 'build/initialize' response
+2023.08.28 13:28:38 WARN  Retrying connection to the build server scala-cli
+2023.08.28 13:28:38 INFO  Running BSP server List(C:\Users\user\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe, bsp, --json-options, C:\Users\user\OneDrive\Desktop\UCSC 2nd Year\2204 Functional programming\2.Lab sheets\Labsheet 10\.scala-build\ide-options-v2.json, C:\Users\user\OneDrive\Desktop\UCSC 2nd Year\2204 Functional programming\2.Lab sheets\Labsheet 10)
+2023.08.28 13:28:40 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\user\OneDrive\Desktop\UCSC 2nd Year\2204 Functional programming\2.Lab sheets\Labsheet 10\.metals\bsp.trace.json or C:\Users\user\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.08.28 13:28:42 INFO  BSP server: Checking https://github.com/coursier/jvm-index/raw/master/index.json
+2023.08.28 13:28:42 INFO  BSP server: Checked https://github.com/coursier/jvm-index/raw/master/index.json
+2023.08.28 13:28:42 INFO  BSP server: Downloading https://github.com/coursier/jvm-index/raw/master/index.json
+2023.08.28 13:28:42 INFO  BSP server: Downloaded https://github.com/coursier/jvm-index/raw/master/index.json
+2023.08.28 13:28:43 INFO  BSP server: Starting compilation server
+2023.08.28 13:28:57 INFO  BSP server: Checking https://repo1.maven.org/maven2/org/scala-lang/scala-library/
+2023.08.28 13:28:57 INFO  BSP server: Checked https://repo1.maven.org/maven2/org/scala-lang/scala-library/
+2023.08.28 13:28:57 INFO  BSP server: Checking https://repo1.maven.org/maven2/org/scala-lang/scala-library/maven-metadata.xml
+2023.08.28 13:28:57 INFO  BSP server: Checked https://repo1.maven.org/maven2/org/scala-lang/scala-library/maven-metadata.xml
+2023.08.28 13:28:57 INFO  BSP server: Checking https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/
+2023.08.28 13:28:57 INFO  BSP server: Checked https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/
+2023.08.28 13:28:57 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/
+2023.08.28 13:28:59 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/
+2023.08.28 13:28:59 INFO  BSP server: Checking https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/maven-metadata.xml
+2023.08.28 13:28:59 INFO  BSP server: Checked https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/maven-metadata.xml
+2023.08.28 13:28:59 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/maven-metadata.xml
+2023.08.28 13:29:00 ERROR Timeout waiting for 'build/initialize' response
+2023.08.28 13:29:00 WARN  Retrying connection to the build server scala-cli
+2023.08.28 13:29:00 INFO  Running BSP server List(C:\Users\user\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe, bsp, --json-options, C:\Users\user\OneDrive\Desktop\UCSC 2nd Year\2204 Functional programming\2.Lab sheets\Labsheet 10\.scala-build\ide-options-v2.json, C:\Users\user\OneDrive\Desktop\UCSC 2nd Year\2204 Functional programming\2.Lab sheets\Labsheet 10)
+2023.08.28 13:29:02 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\user\OneDrive\Desktop\UCSC 2nd Year\2204 Functional programming\2.Lab sheets\Labsheet 10\.metals\bsp.trace.json or C:\Users\user\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.08.28 13:29:06 INFO  BSP server: Checking https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/maven-metadata.xml
+2023.08.28 13:29:06 INFO  BSP server: Checked https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/maven-metadata.xml
+2023.08.28 13:29:06 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/maven-metadata.xml
+2023.08.28 13:29:06 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/maven-metadata.xml
+2023.08.28 13:29:07 INFO  time: Connected to build server in 51s
+2023.08.28 13:29:07 INFO  Connected to Build server: scala-cli v1.0.0
+2023.08.28 13:29:07 INFO  time: Imported build in 0.41s
+2023.08.28 13:29:09 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.08.28 13:29:12 INFO  time: indexed workspace in 4.76s
+2023.08.28 13:29:13 INFO  time: compiled project_bd2c96d2de in 4.22s
+Aug 28, 2023 1:31:54 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 448
+Aug 28, 2023 1:36:14 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\user\OneDrive\Desktop\UCSC 2nd Year\2204 Functional programming\2.Lab sheets\Labsheet 10\.metals\.reports\metals-full\r_compiler-error_1693209974430
+2023.08.28 13:36:21 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.08.28 13:36:24 INFO  time: compiled project_bd2c96d2de in 2.93s
+2023.08.28 13:36:52 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.08.28 13:36:52 INFO  time: compiled project_bd2c96d2de in 0.64s
+2023.08.28 13:37:12 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.08.28 13:37:12 INFO  time: compiled project_bd2c96d2de in 0.54s
+2023.08.28 13:38:39 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.08.28 13:38:39 INFO  time: compiled project_bd2c96d2de in 0.6s
+2023.08.28 13:39:37 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.08.28 13:39:37 INFO  time: compiled project_bd2c96d2de in 0.54s
+2023.08.28 13:40:05 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.08.28 13:40:07 INFO  time: compiled project_bd2c96d2de in 1.36s
+2023.08.28 13:53:18 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.08.28 13:53:18 INFO  time: compiled project_bd2c96d2de in 0.96s
+2023.08.28 13:54:18 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.08.28 13:54:18 INFO  time: compiled project_bd2c96d2de in 0.44s
+2023.08.28 14:03:44 INFO  file:///C:/Users/user/OneDrive/Desktop/UCSC%202nd%20Year/2204%20Functional%20programming/2.Lab%20sheets/Labsheet%2010/Q1.scala:21:7: stale bloop error: Not found: temp
+      temp
+      ^^^^
+2023.08.28 14:03:44 INFO  file:///C:/Users/user/OneDrive/Desktop/UCSC%202nd%20Year/2204%20Functional%20programming/2.Lab%20sheets/Labsheet%2010/Q1.scala:24:24: stale bloop error: Not found: input
+        val faranhight=input.map(x=>(x*9/5)+32)
+                       ^^^^^
+2023.08.28 14:03:44 INFO  file:///C:/Users/user/OneDrive/Desktop/UCSC%202nd%20Year/2204%20Functional%20programming/2.Lab%20sheets/Labsheet%2010/Q1.scala:25:7: stale bloop error: Found:    Unit
+Required: List[Int]
+     }
+      ^
+2023.08.28 14:03:44 INFO  file:///C:/Users/user/OneDrive/Desktop/UCSC%202nd%20Year/2204%20Functional%20programming/2.Lab%20sheets/Labsheet%2010/Q1.scala:21:7: stale bloop error: Not found: temp
+      temp
+      ^^^^
+2023.08.28 14:03:44 INFO  file:///C:/Users/user/OneDrive/Desktop/UCSC%202nd%20Year/2204%20Functional%20programming/2.Lab%20sheets/Labsheet%2010/Q1.scala:24:24: stale bloop error: Not found: input
+        val faranhight=input.map(x=>(x*9/5)+32)
+                       ^^^^^
+2023.08.28 14:03:44 INFO  file:///C:/Users/user/OneDrive/Desktop/UCSC%202nd%20Year/2204%20Functional%20programming/2.Lab%20sheets/Labsheet%2010/Q1.scala:25:7: stale bloop error: Found:    Unit
+Required: List[Int]
+     }
+      ^
+2023.08.28 14:03:47 INFO  file:///C:/Users/user/OneDrive/Desktop/UCSC%202nd%20Year/2204%20Functional%20programming/2.Lab%20sheets/Labsheet%2010/Q1.scala:21:7: stale bloop error: Not found: temp
+      temp
+      ^^^^
+2023.08.28 14:03:47 INFO  file:///C:/Users/user/OneDrive/Desktop/UCSC%202nd%20Year/2204%20Functional%20programming/2.Lab%20sheets/Labsheet%2010/Q1.scala:24:24: stale bloop error: Not found: input
+        val faranhight=input.map(x=>(x*9/5)+32)
+                       ^^^^^
+2023.08.28 14:03:47 INFO  file:///C:/Users/user/OneDrive/Desktop/UCSC%202nd%20Year/2204%20Functional%20programming/2.Lab%20sheets/Labsheet%2010/Q1.scala:25:7: stale bloop error: Found:    Unit
+Required: List[Int]
+     }
+      ^
+2023.08.28 14:03:47 INFO  file:///C:/Users/user/OneDrive/Desktop/UCSC%202nd%20Year/2204%20Functional%20programming/2.Lab%20sheets/Labsheet%2010/Q1.scala:21:7: stale bloop error: Not found: temp
+      temp
+      ^^^^
+2023.08.28 14:03:47 INFO  file:///C:/Users/user/OneDrive/Desktop/UCSC%202nd%20Year/2204%20Functional%20programming/2.Lab%20sheets/Labsheet%2010/Q1.scala:24:24: stale bloop error: Not found: input
+        val faranhight=input.map(x=>(x*9/5)+32)
+                       ^^^^^
+2023.08.28 14:03:47 INFO  file:///C:/Users/user/OneDrive/Desktop/UCSC%202nd%20Year/2204%20Functional%20programming/2.Lab%20sheets/Labsheet%2010/Q1.scala:25:7: stale bloop error: Found:    Unit
+Required: List[Int]
+     }
+      ^
+2023.08.28 14:04:48 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.08.28 14:04:49 INFO  time: compiled project_bd2c96d2de in 1.07s
+Aug 28, 2023 2:05:37 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1809
+Aug 28, 2023 2:06:10 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1840
+Aug 28, 2023 2:13:39 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2029
+2023.08.28 14:16:11 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.08.28 14:16:11 INFO  time: compiled project_bd2c96d2de in 0.22s
+2023.08.28 14:16:54 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.08.28 14:16:54 INFO  time: compiled project_bd2c96d2de in 0.49s
+2023.08.28 14:18:30 WARN  no build target for: C:\Users\user\OneDrive\Desktop\UCSC 2nd Year\2204 Functional programming\2.Lab sheets\Labsheet 10\Q2.scala
+2023.08.28 14:18:30 INFO  Disconnecting from scala-cli session...
+2023.08.28 14:18:30 INFO  Shut down connection with build server.
+2023.08.28 14:18:30 INFO  Attempting to connect to the build server...
+2023.08.28 14:18:30 INFO  Running BSP server List(C:\Users\user\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe, bsp, --json-options, C:\Users\user\OneDrive\Desktop\UCSC 2nd Year\2204 Functional programming\2.Lab sheets\Labsheet 10\.scala-build\ide-options-v2.json, C:\Users\user\OneDrive\Desktop\UCSC 2nd Year\2204 Functional programming\2.Lab sheets\Labsheet 10)
+2023.08.28 14:18:34 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\user\OneDrive\Desktop\UCSC 2nd Year\2204 Functional programming\2.Lab sheets\Labsheet 10\.metals\bsp.trace.json or C:\Users\user\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.08.28 14:18:37 INFO  time: Connected to build server in 7.17s
+2023.08.28 14:18:37 INFO  Connected to Build server: scala-cli v1.0.0
+2023.08.28 14:18:37 INFO  time: indexed workspace in 0.25s
+2023.08.28 14:18:38 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.08.28 14:18:43 INFO  time: compiled project_bd2c96d2de in 5.74s
+2023.08.28 14:18:43 INFO  Refreshed build after change
