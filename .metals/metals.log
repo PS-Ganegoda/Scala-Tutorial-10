@@ -160,3 +160,31 @@ WARNING: Unmatched cancel notification for request id 2029
 2023.08.28 14:18:38 INFO  compiling project_bd2c96d2de (1 scala source)
 2023.08.28 14:18:43 INFO  time: compiled project_bd2c96d2de in 5.74s
 2023.08.28 14:18:43 INFO  Refreshed build after change
+Aug 28, 2023 2:21:51 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2568
+Aug 28, 2023 2:26:45 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2974
+2023.08.28 14:26:56 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.08.28 14:26:56 INFO  time: compiled project_bd2c96d2de in 0.9s
+2023.08.28 14:28:44 INFO  file:///C:/Users/user/OneDrive/Desktop/UCSC%202nd%20Year/2204%20Functional%20programming/2.Lab%20sheets/Labsheet%2010/Q1.scala:17:21: stale bloop error: value map is not a member of Int
+        val average=sumtemp.map(x=>x/fahrenheitTemps.leagth);
+                    ^^^^^^^^^^^
+2023.08.28 14:28:44 INFO  file:///C:/Users/user/OneDrive/Desktop/UCSC%202nd%20Year/2204%20Functional%20programming/2.Lab%20sheets/Labsheet%2010/Q1.scala:19:6: stale bloop error: Found:    Unit
+Required: Double
+    }
+     ^
+2023.08.28 14:28:44 INFO  file:///C:/Users/user/OneDrive/Desktop/UCSC%202nd%20Year/2204%20Functional%20programming/2.Lab%20sheets/Labsheet%2010/Q1.scala:24:19: stale bloop error: missing argument for parameter fahrenheitTemps of method average: (fahrenheitTemps: List[Int]): Double
+        val ave = average();
+                  ^^^^^^^^^
+2023.08.28 14:28:51 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.08.28 14:28:53 INFO  time: compiled project_bd2c96d2de in 1.09s
+Aug 28, 2023 2:35:53 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3443
+Aug 28, 2023 2:35:53 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3444
+2023.08.28 14:40:39 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.08.28 14:40:39 INFO  time: compiled project_bd2c96d2de in 0.68s
+2023.08.28 14:41:53 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.08.28 14:41:53 INFO  time: compiled project_bd2c96d2de in 0.51s
+2023.08.28 14:43:20 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.08.28 14:43:20 INFO  time: compiled project_bd2c96d2de in 0.31s
